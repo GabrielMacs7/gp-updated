@@ -128,9 +128,7 @@ export function EventsGallery() {
           <p className="font-[family-name:var(--font-subtitle)] text-xs uppercase tracking-[0.42em] text-[#c1a45f]">
             {lang === "es" ? "Eventos" : "Events"}
           </p>
-          <h2 className="mt-4 font-[family-name:var(--font-display)] text-4xl text-balance text-[#0b1e3e] sm:text-5xl">
-            {lang === "es" ? "Eventos a los que hemos asistido" : "Events we have attended"}
-          </h2>
+
           <p className="mt-4 text-sm text-[#3b3b3b] font-[family-name:var(--font-subtitle)] max-w-xl mx-auto">
             {lang === "es"
               ? "Conoce nuestra participación en ferias y conferencias del sector marítimo a nivel global."

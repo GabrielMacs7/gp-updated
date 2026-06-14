@@ -240,3 +240,20 @@
 2026-06-14T03:42:53.548498Z  INFO get_files: tailwindcss_oxide::scanner: exit
 2026-06-14T03:42:53.548666Z  INFO get_globs: tailwindcss_oxide::scanner: enter
 2026-06-14T03:42:53.548680Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-06-14T03:44:12.852427Z  INFO discover_sources: tailwindcss_oxide::scanner: enter
+2026-06-14T03:44:12.852460Z  INFO discover_sources:walk_parallel: tailwindcss_oxide::scanner: enter
+2026-06-14T03:44:12.865760Z  INFO discover_sources:walk_parallel: tailwindcss_oxide::scanner: exit
+2026-06-14T03:44:12.867815Z  INFO discover_sources: tailwindcss_oxide::scanner: Reading "C:\\Users\\pc\\Downloads\\gp-updated\\app\\components\\EventsGallery.tsx"
+2026-06-14T03:44:12.867844Z  INFO discover_sources: tailwindcss_oxide::scanner: exit
+2026-06-14T03:44:12.867854Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-06-14T03:44:12.867860Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-06-14T03:44:12.867866Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-06-14T03:44:12.868134Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-06-14T03:44:12.868152Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-06-14T03:44:12.868209Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-06-14T03:44:12.868749Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-06-14T03:44:12.868775Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: enter
+2026-06-14T03:44:12.868783Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: exit
+2026-06-14T03:44:12.868899Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-06-14T03:44:12.869014Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-06-14T03:44:12.869024Z  INFO get_globs: tailwindcss_oxide::scanner: exit
