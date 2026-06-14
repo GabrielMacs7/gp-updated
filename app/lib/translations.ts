@@ -104,11 +104,7 @@ export const translations = {
   ports: {
     label: { es: "Presencia nacional", en: "National presence" },
     title: { es: "Colombia, de océano a océano.", en: "Colombia, ocean to ocean." },
-    subtitle: {
-      es: "G&P opera en los principales puertos marítimos de Colombia, cubriendo tanto la Costa Atlántica como el Pacífico. Nuestra presencia multi-puerto garantiza continuidad de servicio sin importar el destino del buque.",
-      en: "G&P operates in Colombia's main maritime ports, covering both the Atlantic Coast and the Pacific. Our multi-port presence guarantees service continuity regardless of the vessel's destination.",
-    },
-    atlantic: { es: "Costa Atlántica", en: "Atlantic Coast" },
+atlantic: { es: "Costa Atlántica", en: "Atlantic Coast" },
     pacific: { es: "Costa Pacífica", en: "Pacific Coast" },
     offshore: { es: "Zonas offshore", en: "Offshore zones" },
     items: [

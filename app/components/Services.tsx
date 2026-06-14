@@ -38,26 +38,6 @@ const departments = [
     ],
   },
   {
-    id: "container-management",
-    logo: "/containermanagment.png",
-    icon: FaBox,
-    title: { es: "G&P Container Management", en: "G&P Container Management" },
-    subtitle: { es: "Gestión de Contenedores", en: "Container Management" },
-    short: { es: "Container", en: "Container" },
-    sections: [
-      {
-        heading: { es: "Servicios para Contenedores", en: "Container Services" },
-        items: [
-          { es: "Inspección Técnica de Contenedores (IICL) — bajo estándares IICL y CIC.", en: "Technical Container Inspection (IICL) — under IICL and CIC standards." },
-          { es: "Reparación de Contenedores — estructural, paneles, puertas, soldadura y pintura.", en: "Container Repair — structural, panels, doors, welding and painting." },
-          { es: "Survey de Contenedores Refrigerados (Reefer).", en: "Reefer Container Survey." },
-          { es: "Almacenamiento y Gestión de Contenedores.", en: "Container Storage & Management." },
-          { es: "Compra, Venta y Alquiler de Contenedores — Dry, Reefer, Open Top, Flat Rack.", en: "Container Sale, Purchase & Rental — Dry, Reefer, Open Top, Flat Rack." },
-        ],
-      },
-    ],
-  },
-  {
     id: "marine-survey",
     logo: "/marinesurveyengineering.png",
     icon: FaRulerCombined,
@@ -89,6 +69,26 @@ const departments = [
           { es: "Asesoría Técnica Marítima — estudios, riesgos, optimización.", en: "Maritime Technical Advisory — studies, risk, optimization." },
           { es: "Project Cargo & Heavy Lift — cargas de proyecto.", en: "Project Cargo & Heavy Lift." },
           { es: "Representación Comercial y Técnica en Colombia y Suramérica.", en: "Commercial & Technical Representation in Colombia and South America." },
+        ],
+      },
+    ],
+  },
+  {
+    id: "container-management",
+    logo: "/containermanagment.png",
+    icon: FaBox,
+    title: { es: "G&P Container Management", en: "G&P Container Management" },
+    subtitle: { es: "Gestión de Contenedores", en: "Container Management" },
+    short: { es: "Container", en: "Container" },
+    sections: [
+      {
+        heading: { es: "Servicios para Contenedores", en: "Container Services" },
+        items: [
+          { es: "Inspección Técnica de Contenedores (IICL) — bajo estándares IICL y CIC.", en: "Technical Container Inspection (IICL) — under IICL and CIC standards." },
+          { es: "Reparación de Contenedores — estructural, paneles, puertas, soldadura y pintura.", en: "Container Repair — structural, panels, doors, welding and painting." },
+          { es: "Survey de Contenedores Refrigerados (Reefer).", en: "Reefer Container Survey." },
+          { es: "Almacenamiento y Gestión de Contenedores.", en: "Container Storage & Management." },
+          { es: "Compra, Venta y Alquiler de Contenedores — Dry, Reefer, Open Top, Flat Rack.", en: "Container Sale, Purchase & Rental — Dry, Reefer, Open Top, Flat Rack." },
         ],
       },
     ],
@@ -141,7 +141,7 @@ export function Services() {
           {/* Logo + Title */}
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-10 mb-10">
             <div
-              className="bg-white border border-[rgba(11,30,62,0.08)] p-4 shadow-lg cursor-zoom-in hover:shadow-xl transition-all shrink-0 w-48 sm:w-56"
+              className="bg-[#c1a45f] border border-[#c1a45f] p-4 shadow-lg cursor-zoom-in hover:shadow-xl transition-all shrink-0 w-48 sm:w-56"
               onClick={() => setLightbox(dept.logo)}
             >
               <Image

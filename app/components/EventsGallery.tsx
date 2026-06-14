@@ -33,7 +33,7 @@ const events: EventGroup[] = [
     ],
   },
   {
-    name: "Intermodal Europe 2023",
+    name: "Intermodal Europe",
     images: [
       "/events/Intermodal/intermodal-europe-2023/IMG_1307.jpg",
       "/events/Intermodal/intermodal-europe-2023/IMG_1306.jpg",
@@ -52,9 +52,20 @@ const events: EventGroup[] = [
     ],
   },
   {
-    name: "Intermodal 2022",
+    name: "Intermodal",
     images: [
       "/events/Intermodal/intermodal-2022/IMG_0162.jpeg",
+    ],
+  },
+  {
+    name: "Events",
+    images: [
+      "/events/events/1.jpeg",
+      "/events/events/2.jpeg",
+      "/events/events/3.jpeg",
+      "/events/events/4.jpeg",
+      "/events/events/5.jpeg",
+      "/events/events/6.jpeg",
     ],
   },
   {

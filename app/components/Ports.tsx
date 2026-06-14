@@ -68,13 +68,7 @@ export function Ports() {
               {lang === "es" ? "Colombia, de océano a océano." : "Colombia, ocean to ocean."}
             </h2>
           </div>
-          <div>
-            <p className="font-[family-name:var(--font-subtitle)] text-sm leading-7 text-[rgba(247,246,242,0.7)]">
-              {lang === "es"
-                ? "G&P opera en los principales puertos marítimos de Colombia, cubriendo tanto la Costa Atlántica como el Pacífico. Nuestra presencia multi-puerto garantiza continuidad de servicio sin importar el destino del buque."
-                : "G&P operates in Colombia's main maritime ports, covering both the Atlantic Coast and the Pacific. Our multi-port presence guarantees service continuity regardless of the vessel's destination."}
-            </p>
-          </div>
+
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[rgba(193,164,95,0.1)]">
           {ports.map((port) => (
