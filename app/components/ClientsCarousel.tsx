@@ -50,7 +50,6 @@ export function ClientsCarousel() {
                       width={200}
                       height={80}
                       className="max-w-full max-h-full w-auto h-auto object-contain"
-                      style={{ filter: "brightness(0) saturate(0) invert(30%) sepia(10%) hue-rotate(190deg)" }}
                     />
                   </div>
                 </div>
