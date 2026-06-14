@@ -110,9 +110,7 @@ export function Services() {
           <p className="font-[family-name:var(--font-subtitle)] text-xs uppercase tracking-[0.42em] text-[#c1a45f]">
             {lang === "es" ? "Nuestras Divisiones" : "Our Divisions"}
           </p>
-          <h2 className="mt-4 font-[family-name:var(--font-display)] text-4xl text-balance text-[#0b1e3e] sm:text-5xl">
-            {lang === "es" ? "Divisiones de negocio" : "Business divisions"}
-          </h2>
+
         </div>
 
         {/* Tabs */}

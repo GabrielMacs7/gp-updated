@@ -98,12 +98,7 @@ export function Coverage() {
                   height={600}
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                {/* Port number badge */}
-                <div className="absolute top-3 left-3 z-20 bg-[#c1a45f] px-3 py-1">
-                  <p className="font-[family-name:var(--font-subtitle)] text-[10px] font-bold tracking-[0.2em] text-[#0b1e3e]">
-                    {String(index + 1).padStart(2, '0')}
-                  </p>
-                </div>
+
               </div>
               
               {/* Content */}
