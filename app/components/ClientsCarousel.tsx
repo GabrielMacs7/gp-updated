@@ -12,7 +12,7 @@ const clients = [
   { name: "SMITCO", logo: "/clients/SMITCO.png" },
   { name: "Florens Asset Management", logo: "/clients/florensassetmanagment.png" },
   { name: "Renta Containers JJ", logo: "/clients/rentacontainersjj.png" },
-  { name: "Nomada", logo: "/clients/nomada.jfif" },
+  { name: "Nomada", logo: "/clients/nomada.jpg" },
 ];
 
 export function ClientsCarousel() {
