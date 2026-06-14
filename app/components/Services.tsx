@@ -109,7 +109,7 @@ export function Services() {
       <div className="absolute inset-0 bg-gradient-to-b from-[#f7f6f2] via-transparent to-[#f7f6f2]" />
       <div className="relative mx-auto max-w-7xl px-6 sm:px-10 lg:px-12">
         <div className="text-center mb-12">
-          <p className="font-[family-name:var(--font-subtitle)] text-xs uppercase tracking-[0.42em] text-[#c1a45f]">
+          <p className="font-[family-name:var(--font-subtitle)] text-xs uppercase tracking-[0.42em] text-[#0b1e3e]">
             {lang === "es" ? "Nuestras Divisiones" : "Our Divisions"}
           </p>
 
@@ -153,7 +153,7 @@ export function Services() {
               />
             </div>
             <div className="text-center sm:text-left pt-1">
-              <p className="font-[family-name:var(--font-subtitle)] text-xs uppercase tracking-[0.42em] text-[#c1a45f] mb-2">
+              <p className="font-[family-name:var(--font-subtitle)] text-xs uppercase tracking-[0.42em] text-[#0b1e3e] mb-2">
                 {dept.subtitle[lang]}
               </p>
               <h3 className="font-[family-name:var(--font-display)] text-3xl md:text-4xl text-[#0b1e3e]">

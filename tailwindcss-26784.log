@@ -342,3 +342,37 @@
 2026-06-14T04:10:31.117269Z  INFO get_files: tailwindcss_oxide::scanner: exit
 2026-06-14T04:10:31.117393Z  INFO get_globs: tailwindcss_oxide::scanner: enter
 2026-06-14T04:10:31.117402Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:47.633333Z  INFO discover_sources: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:47.633383Z  INFO discover_sources:walk_parallel: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:47.643560Z  INFO discover_sources:walk_parallel: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:47.645418Z  INFO discover_sources: tailwindcss_oxide::scanner: Reading "C:\\Users\\pc\\Downloads\\gp-updated\\app\\components\\Services.tsx"
+2026-06-14T04:13:47.645446Z  INFO discover_sources: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:47.645453Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:47.645458Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:47.645462Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:47.646310Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:47.646326Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:47.646383Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:47.647077Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:47.647091Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:47.647097Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:47.647213Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:47.647412Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:47.647424Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:55.411363Z  INFO discover_sources: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:55.411408Z  INFO discover_sources:walk_parallel: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:55.421402Z  INFO discover_sources:walk_parallel: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:55.423274Z  INFO discover_sources: tailwindcss_oxide::scanner: Reading "C:\\Users\\pc\\Downloads\\gp-updated\\app\\components\\Services.tsx"
+2026-06-14T04:13:55.423297Z  INFO discover_sources: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:55.423308Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:55.423314Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:55.423321Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:55.423569Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:55.423582Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:55.423631Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:55.424276Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:55.424291Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:55.424297Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:55.424387Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-06-14T04:13:55.424502Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-06-14T04:13:55.424515Z  INFO get_globs: tailwindcss_oxide::scanner: exit
