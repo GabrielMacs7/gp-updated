@@ -12,6 +12,7 @@ const clients = [
   { name: "SMITCO", logo: "/clients/SMITCO.png" },
   { name: "Florens Asset Management", logo: "/clients/florensassetmanagment.png" },
   { name: "Renta Containers JJ", logo: "/clients/rentacontainersjj.png" },
+  { name: "Nomada", logo: "/clients/nomada.jfif" },
 ];
 
 export function ClientsCarousel() {
@@ -21,11 +22,8 @@ export function ClientsCarousel() {
     <section className="bg-[#f7f6f2] py-20 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 sm:px-10 lg:px-12 mb-12">
         <div className="text-center">
-          <p className="font-[family-name:var(--font-subtitle)] text-xs uppercase tracking-[0.42em] text-[#c1a45f]">
-            {lang === "es" ? "Clientes" : "Clients"}
-          </p>
           <h2 className="mt-4 font-[family-name:var(--font-display)] text-4xl text-balance text-[#0b1e3e] sm:text-5xl">
-            {lang === "es" ? "Confían en nosotros" : "Trusted by"}
+            {lang === "es" ? "Nuestros aliados" : "Our allies"}
           </h2>
         </div>
       </div>
