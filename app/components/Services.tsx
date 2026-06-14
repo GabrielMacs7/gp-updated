@@ -162,27 +162,34 @@ export function Services() {
             </div>
           </div>
 
-          {/* Service cards */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {/* Service cards — parchment scroll */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {dept.sections.map((section) => (
               <div
                 key={section.heading.en}
-                className="bg-white border border-[rgba(11,30,62,0.08)] p-6 shadow-[0_8px_25px_rgba(11,30,62,0.05)]"
+                className="scroll-card relative"
               >
-                <h4 className="font-[family-name:var(--font-display)] text-xl text-[#0b1e3e] mb-4 pb-3 border-b border-[rgba(193,164,95,0.2)]">
-                  {section.heading[lang]}
-                </h4>
-                <ul className="space-y-3">
-                  {section.items.map((item) => (
-                    <li
-                      key={item.es.substring(0, 15)}
-                      className="flex items-start gap-2.5 text-sm leading-6 text-[#3b3b3b] font-[family-name:var(--font-subtitle)]"
-                    >
-                      <FaArrowRight className="text-[#c1a45f] mt-1 text-[10px] shrink-0" />
-                      <span>{item[lang]}</span>
-                    </li>
-                  ))}
-                </ul>
+                {/* Top roll */}
+                <div className="scroll-roll-top" />
+                {/* Body */}
+                <div className="scroll-body px-6 pt-7 pb-5">
+                  <h4 className="font-[family-name:var(--font-display)] text-xl text-[#1a1208] mb-4 pb-3 border-b border-[rgba(193,164,95,0.3)]">
+                    {section.heading[lang]}
+                  </h4>
+                  <ul className="space-y-3">
+                    {section.items.map((item) => (
+                      <li
+                        key={item.es.substring(0, 15)}
+                        className="flex items-start gap-2.5 text-sm leading-6 text-[#1a1208] font-[family-name:var(--font-subtitle)]"
+                      >
+                        <FaArrowRight className="text-[#6b4e0a] mt-1 text-[10px] shrink-0" />
+                        <span>{item[lang]}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                {/* Bottom roll */}
+                <div className="scroll-roll-bottom" />
               </div>
             ))}
           </div>
@@ -193,6 +200,80 @@ export function Services() {
     <style>{`
       @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
       .animate-fadeIn { animation: fadeIn 0.35s ease forwards; }
+
+      .scroll-card {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 8px 32px rgba(74,53,32,0.12);
+        transition: box-shadow 0.3s ease;
+      }
+      .scroll-card:hover {
+        box-shadow: 0 12px 40px rgba(74,53,32,0.2);
+      }
+
+      .scroll-roll-top,
+      .scroll-roll-bottom {
+        height: 14px;
+        background: linear-gradient(
+          180deg,
+          #d4a85a 0%,
+          #f0d68a 20%,
+          #c99b4a 50%,
+          #f0d68a 80%,
+          #d4a85a 100%
+        );
+        position: relative;
+        flex-shrink: 0;
+      }
+      .scroll-roll-top {
+        border-radius: 4px 4px 0 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.4);
+      }
+      .scroll-roll-bottom {
+        border-radius: 0 0 4px 4px;
+        box-shadow: 0 -2px 4px rgba(0,0,0,0.1), inset 0 -1px 0 rgba(255,255,255,0.3);
+      }
+
+      .scroll-roll-top::before,
+      .scroll-roll-bottom::before {
+        content: '';
+        position: absolute;
+        left: 6px;
+        right: 6px;
+        top: 3px;
+        bottom: 3px;
+        border-radius: 50%;
+        background: radial-gradient(ellipse, rgba(0,0,0,0.08) 0%, transparent 70%);
+        pointer-events: none;
+      }
+
+      .scroll-body {
+        background: linear-gradient(
+          180deg,
+          #f5e6c8 0%,
+          #faf0db 8%,
+          #f5e6c8 50%,
+          #f0dfbf 92%,
+          #f5e6c8 100%
+        );
+        border-left: 1px solid rgba(193,164,95,0.25);
+        border-right: 1px solid rgba(193,164,95,0.25);
+        position: relative;
+      }
+
+      .scroll-body::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 40px,
+          rgba(193,164,95,0.04) 40px,
+          rgba(193,164,95,0.04) 41px
+        );
+        pointer-events: none;
+      }
     `}</style>
 
     {lightbox && (
