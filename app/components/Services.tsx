@@ -104,8 +104,10 @@ export function Services() {
 
   return (
     <>
-    <section id="servicios" className="bg-[#f7f6f2] py-24">
-      <div className="mx-auto max-w-7xl px-6 sm:px-10 lg:px-12">
+    <section id="servicios" className="relative bg-[#f7f6f2] py-24">
+      <div className="absolute inset-0 bg-[url('/bg.jpg')] bg-cover bg-center bg-fixed" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#f7f6f2] via-transparent to-[#f7f6f2]" />
+      <div className="relative mx-auto max-w-7xl px-6 sm:px-10 lg:px-12">
         <div className="text-center mb-12">
           <p className="font-[family-name:var(--font-subtitle)] text-xs uppercase tracking-[0.42em] text-[#c1a45f]">
             {lang === "es" ? "Nuestras Divisiones" : "Our Divisions"}
